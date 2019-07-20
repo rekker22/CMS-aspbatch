@@ -17,11 +17,24 @@
 <body>
     <form id="form1" runat="server">
         <div id="header" class="auto-style1" style="background-color: #0000FF">WELCOME</div>
+        <div id="menu">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%">
+                <DynamicMenuItemStyle HorizontalPadding="10px" />
+                <Items>
+                    <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                    <asp:MenuItem Text="Registration" Value="Registration"></asp:MenuItem>
+                    <asp:MenuItem Text="Sign In/Sign Up" Value="Sign In/Sign Up"></asp:MenuItem>
+                </Items>
+                <StaticHoverStyle BackColor="#33CCFF" BorderColor="#000066" />
+                <StaticMenuItemStyle HorizontalPadding="10px" />
+                <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="10px" />
+            </asp:Menu>
+        </div>
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <div id="footer" style="background-color: #0000FF"></div>
+        <div id="footer" class="auto-style1" style="background-color: #0000FF">End of Site</div>
     </form>
 </body>
 </html>
