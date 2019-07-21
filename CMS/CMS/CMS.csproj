@@ -65,13 +65,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="educationDetails.aspx" />
     <Content Include="Home_m.aspx" />
     <Content Include="login_m.aspx" />
+    <Content Include="personalDetails_m.aspx" />
     <Content Include="registrationForm.aspx" />
+    <Content Include="upload_m.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="educationDetails.aspx.cs">
+      <DependentUpon>educationDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="educationDetails.aspx.designer.cs">
+      <DependentUpon>educationDetails.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home_m.aspx.cs">
       <DependentUpon>Home_m.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -93,6 +103,13 @@
     <Compile Include="Masterpage.Master.designer.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
+    <Compile Include="personalDetails_m.aspx.cs">
+      <DependentUpon>personalDetails_m.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="personalDetails_m.aspx.designer.cs">
+      <DependentUpon>personalDetails_m.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="registrationForm.aspx.cs">
       <DependentUpon>registrationForm.aspx</DependentUpon>
@@ -100,6 +117,13 @@
     </Compile>
     <Compile Include="registrationForm.aspx.designer.cs">
       <DependentUpon>registrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="upload_m.aspx.cs">
+      <DependentUpon>upload_m.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="upload_m.aspx.designer.cs">
+      <DependentUpon>upload_m.aspx</DependentUpon>
     </Compile>
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
