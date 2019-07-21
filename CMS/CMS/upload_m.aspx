@@ -12,68 +12,84 @@
         .auto-style3 {
             height: 33px;
         }
-        .auto-style4 {
-            width: 668px;
+        .auto-style10 {
+        text-align: center;
+    }
+    .auto-style11 {
+        width: 1231px;
+    }
+    .auto-style14 {
+        text-align: center;
+        width: 388px;
+    }
+        .auto-style21 {
+            width: 14%;
         }
-        .auto-style5 {
+        .auto-style22 {
+            width: 14%;
             height: 33px;
-            width: 668px;
         }
-        .auto-style8 {
+        .auto-style25 {
             width: 37%;
+            text-align: center;
         }
-        .auto-style9 {
+        .auto-style26 {
             width: 37%;
             height: 33px;
+            text-align: center;
+        }
+        .auto-style27 {
+            height: 877px;
         }
         </style>
      <div style="height: 95px">
 
-            <table>
+            <table class="auto-style11" >
                 <tr>
-                    <td class="auto-style25">&nbsp;</td>
-                    <td class="auto-style26">&nbsp;</td>
-                    <td class="auto-style27">&nbsp;</td>
-                    <td class="auto-style28">&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="auto-style10">
+                        &nbsp;</td>
+                    <td class="auto-style14">
+                        &nbsp;</td>
+                    <td class="auto-style10">
+                        &nbsp;</td>
                 </tr>
-            </table>
-            <table style="width: 1798px" >
                 <tr>
-                    <td>
+                    <td class="auto-style10">
                         <asp:Label ID="Label15" runat="server" Text="Step 1: Personal Details"></asp:Label>
                     </td>
-                    <td>
+                    <td class="auto-style14">
                         <asp:Label ID="Label16" runat="server" Text="Step 2: Educational Details"></asp:Label>
                     </td>
-                    <td>
-                        <asp:Label ID="Label17" runat="server" Text="Step 3: Upload Files"></asp:Label>
+                    <td class="auto-style10">
+                        <asp:Label ID="Label17" runat="server" Text="Step 3: Upload Files" Font-Bold="True" Font-Size="Medium" ForeColor="#FF3300"></asp:Label>
                     </td>
                 </tr>
             </table>
-            <br />
-            <br />
             <br />
             <br />
 
         </div>
-    <div style="height: 1406px">
+    <div class="auto-style27">
     
         <table class="auto-style1" style="color: #000000; text-align: left">
             <tr>
-                <td class="auto-style8">Upload the Signature</td>
+                <td class="auto-style21">&nbsp;</td>
+                <td class="auto-style25">Upload the Signature</td>
                 <td>
                     <asp:FileUpload ID="FileUpload2" runat="server" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8" >&nbsp;</td>
+                <td class="auto-style21" >&nbsp;</td>
+                <td class="auto-style25" >&nbsp;</td>
                 <td>
                     <asp:Image ID="Image2" runat="server" Height="182px" Width="203px" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style22">
+                    &nbsp;</td>
+                <td class="auto-style26">
                     <asp:Label ID="Label18" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style3">
@@ -81,7 +97,9 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style22">
+                    &nbsp;</td>
+                <td class="auto-style26">
                     &nbsp;</td>
                 <td class="auto-style3">
                     &nbsp;</td>
@@ -90,19 +108,23 @@
     
         <table class="auto-style1" style="color: #000000; text-align: left">
             <tr>
-                <td class="auto-style8">Upload the Photo</td>
+                <td class="auto-style21">&nbsp;</td>
+                <td class="auto-style25">Upload the Photo</td>
                 <td>
                     <asp:FileUpload ID="FileUpload3" runat="server" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8" >&nbsp;</td>
+                <td class="auto-style21" >&nbsp;</td>
+                <td class="auto-style25" >&nbsp;</td>
                 <td>
                     <asp:Image ID="Image3" runat="server" Height="182px" Width="203px" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style22">
+                    &nbsp;</td>
+                <td class="auto-style26">
                     <asp:Label ID="Label19" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style3">
@@ -110,7 +132,9 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style22">
+                    &nbsp;</td>
+                <td class="auto-style26">
                     &nbsp;</td>
                 <td class="auto-style3">
                     &nbsp;</td>
@@ -119,27 +143,39 @@
     
         <table class="auto-style1" style="color: #000000; text-align: left">
             <tr>
-                <td class="auto-style8">Upload the Thumb Impression</td>
+                <td class="auto-style21">&nbsp;</td>
+                <td class="auto-style25">Upload the Thumb Impression</td>
                 <td>
                     <asp:FileUpload ID="FileUpload4" runat="server" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style8" >&nbsp;</td>
+                <td class="auto-style21" >&nbsp;</td>
+                <td class="auto-style25" >&nbsp;</td>
                 <td>
                     <asp:Image ID="Image4" runat="server" Height="182px" Width="203px" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style21" >&nbsp;</td>
+                <td class="auto-style25" >&nbsp;</td>
+                <td>
+                    &nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style22">
+                    &nbsp;</td>
+                <td class="auto-style26">
                     <asp:Label ID="Label20" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="Button4" runat="server"  Text="Upload" />
+                    <asp:Button ID="Button4" runat="server"  Text="Upload" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" />
                 </td>
             </tr>
             <tr>
-                <td class="auto-style9">
+                <td class="auto-style22">
+                    &nbsp;</td>
+                <td class="auto-style26">
                     &nbsp;</td>
                 <td class="auto-style3">
                     &nbsp;</td>

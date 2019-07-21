@@ -7,28 +7,7 @@
     <title></title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
-    <style type="text/css">
-        .auto-style1 {
-            text-align: center;
-            color: #FFFFFF;
-        }
-        .auto-style2 {
-            text-align: center;
-            color: #FFFFFF;
-            background-color: #5C46D6;
-        }
-        .auto-style3 {
-            width: 100%;
-        }
-        .auto-style4 {
-            height: 19px;
-            width: 1804px;
-        }
-        .auto-style5 {
-            width: 1804px;
-        }
-    </style>
-</head>
+    </head>
 <body>
     <form id="form1" runat="server">
         <div style="height: 157px; text-align: center; background-color: #5C46D6;" >
@@ -54,8 +33,9 @@
                     <asp:MenuItem Text="About" Value="About"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#33CCFF" BorderColor="#000066" />
-                <StaticMenuItemStyle HorizontalPadding="10px" />
-                <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="10px" />
+                <StaticMenuItemStyle HorizontalPadding="10px" BackColor="White" />
+                <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="10px" Width="100%" />
+                <StaticSelectedStyle BackColor="#6699FF" />
             </asp:Menu>
         </div>
         <div style="background-color: #FFFFFF">
