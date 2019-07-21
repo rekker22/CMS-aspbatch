@@ -55,7 +55,7 @@
         width: 569px;
     }
     .auto-style16 {
-        height: 759px;
+        height: 776px;
         width: 1226px;
         margin-right: 0px;
     }

@@ -65,6 +65,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\dbcms.mdf" />
+    <Content Include="App_Data\dbcms_log.ldf">
+      <DependentUpon>dbcms.mdf</DependentUpon>
+    </Content>
     <Content Include="educationDetails.aspx" />
     <Content Include="Home_m.aspx" />
     <Content Include="login_m.aspx" />
@@ -75,6 +79,7 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="dbaccess.cs" />
     <Compile Include="educationDetails.aspx.cs">
       <DependentUpon>educationDetails.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
