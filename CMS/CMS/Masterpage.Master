@@ -21,8 +21,8 @@
             <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%">
                 <DynamicMenuItemStyle HorizontalPadding="10px" />
                 <Items>
-                    <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
-                    <asp:MenuItem Text="Registration" Value="Registration"></asp:MenuItem>
+                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home_m.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Registration" Value="Registration" NavigateUrl="~/Registration_m_m.aspx"></asp:MenuItem>
                     <asp:MenuItem Text="Sign In/Sign Up" Value="Sign In/Sign Up"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#33CCFF" BorderColor="#000066" />
