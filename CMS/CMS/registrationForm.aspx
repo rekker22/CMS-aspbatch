@@ -13,13 +13,9 @@
             height: 32px;
         }
         .auto-style4 {
-            width: 364px;
+              width: 1720px;
               text-align: left;
-          }
-        .auto-style5 {
-            width: 364px;
-            height: 26px;
-              text-align: left;
+              height: 19px;
           }
         .auto-style6 {
             height: 26px;
@@ -29,7 +25,7 @@
             text-align: left;
         }
         .auto-style7 {
-              width: 364px;
+              width: 1720px;
               height: 29px;
               text-align: left;
           }
@@ -48,7 +44,7 @@
             color: #808080;
         }
         .auto-style10 {
-            width: 364px;
+            width: 1720px;
             height: 24px;
               text-align: left;
           }
@@ -62,7 +58,7 @@
         }
        
         .auto-style14 {
-            width: 364px;
+            width: 1720px;
             height: 33px;
               color: #000000;
               text-align: left;
@@ -75,7 +71,7 @@
             color: #FF0000;
         }
         .auto-style18 {
-            width: 364px;
+            width: 1720px;
             height: 26px;
             color: #FF0000;
         }
@@ -92,7 +88,7 @@
           }
        
           .auto-style27 {
-              width: 364px;
+              width: 1720px;
               height: 26px;
               text-align: left;
           }
@@ -109,7 +105,7 @@
               text-align: left;
           }
           .auto-style30 {
-              width: 364px;
+              width: 1720px;
               height: 33px;
               text-align: left;
           }
@@ -187,7 +183,7 @@
                 <td class="auto-style6" colspan="2"></td>
             </tr>
             <tr>
-                <td class="auto-style5">
+                <td class="auto-style27">
                     <asp:Label ID="Label6" runat="server" Text="Confirm Password" CssClass="auto-style32"></asp:Label>
                     <span class="newStyle1">*</span></td>
                 <td class="auto-style6" colspan="2">
@@ -217,7 +213,7 @@
                     &nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style5">
+                <td class="auto-style27">
                     </td>
                 <td class="auto-style28">
                     </td>
@@ -227,7 +223,7 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style5">
+                <td class="auto-style27">
                     <asp:Label ID="Label11" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style9">
