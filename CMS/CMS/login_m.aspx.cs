@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace CMS
 {
-    public partial class Masterpage : System.Web.UI.MasterPage
+    public partial class login_m : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)
         {
 
         }

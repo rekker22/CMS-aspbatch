@@ -12,29 +12,45 @@
             text-align: center;
             color: #FFFFFF;
         }
+        .auto-style2 {
+            text-align: center;
+            color: #FFFFFF;
+            background-color: #5C46D6;
+        }
     </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <div id="header" class="auto-style1" style="background-color: #0000FF">WELCOME</div>
+        <div id="header" class="auto-style1" style="background-color: #5C46D6;">
+            <h2 style="box-sizing: border-box; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(255, 255, 255); margin-top: 20px; margin-bottom: 10px; font-size: 30px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;"><b style="box-sizing: border-box; font-weight: 700;">Government College of Engineering and Leather Technology</b></h2>
+            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
+                <b style="box-sizing: border-box; font-weight: 700; background-color: #5C46D6;">Approved by AICTE and affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal</b></p>
+            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
+                <b style="box-sizing: border-box; font-weight: 700;">ESTD - 1919</b></p>
+        </div>
         <div id="menu">
-            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%" OnMenuItemClick="Menu1_MenuItemClick" style="color: #5C46D6">
                 <DynamicMenuItemStyle HorizontalPadding="10px" />
                 <Items>
-                    <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
-                    <asp:MenuItem Text="Registration" Value="Registration"></asp:MenuItem>
-                    <asp:MenuItem Text="Sign In/Sign Up" Value="Sign In/Sign Up"></asp:MenuItem>
+                    <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home_m.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Registration" Value="Registration" NavigateUrl="~/registrationForm.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Login" Value="Sign In/Sign Up">
+                        <asp:MenuItem NavigateUrl="~/login_m.aspx" Text="Student Login" Value="Student Login"></asp:MenuItem>
+                        <asp:MenuItem Text="Admin Login" Value="Admin Login"></asp:MenuItem>
+                    </asp:MenuItem>
+                    <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
+                    <asp:MenuItem Text="About" Value="About"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#33CCFF" BorderColor="#000066" />
                 <StaticMenuItemStyle HorizontalPadding="10px" />
                 <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="10px" />
             </asp:Menu>
         </div>
-        <div>
+        <div style="background-color: #FFFFFF">
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <div id="footer" class="auto-style1" style="background-color: #0000FF">End of Site</div>
+        <div id="footer" class="auto-style2">End of Site</div>
     </form>
 </body>
 </html>

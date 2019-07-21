@@ -52,10 +52,6 @@
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
@@ -70,7 +66,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home_m.aspx" />
+    <Content Include="login_m.aspx" />
+    <Content Include="registrationForm.aspx" />
     <Content Include="Web.config" />
+    <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Home_m.aspx.cs">
@@ -80,6 +79,13 @@
     <Compile Include="Home_m.aspx.designer.cs">
       <DependentUpon>Home_m.aspx</DependentUpon>
     </Compile>
+    <Compile Include="login_m.aspx.cs">
+      <DependentUpon>login_m.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login_m.aspx.designer.cs">
+      <DependentUpon>login_m.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Masterpage.Master.cs">
       <DependentUpon>Masterpage.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -88,6 +94,20 @@
       <DependentUpon>Masterpage.Master</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registrationForm.aspx.cs">
+      <DependentUpon>registrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="registrationForm.aspx.designer.cs">
+      <DependentUpon>registrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Masterpage.Master" />
