@@ -5,6 +5,11 @@
 <html>
 <head runat="server">
     <title></title>
+    <style type="text/css">
+        .auto-style2 {
+            background-color: #5C46D6;
+        }
+    </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     </head>
@@ -12,15 +17,15 @@
     <form id="form1" runat="server">
         <div style="height: 157px; text-align: center; background-color: #5C46D6;" >
 
-            <h2 style="box-sizing: border-box; font-family:Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(255, 255, 255); margin-top: 20px; margin-bottom: 10px; font-size: 30px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;"><b style="box-sizing: border-box; font-weight: 700;">Government College of Engineering and Leather Technology</b></h2>
-            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family:Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
+            <h2 style="box-sizing: border-box; font-family:Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(255, 255, 255); margin-top: 20px; margin-bottom: 10px; font-size: 30px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;"><b style="box-sizing: border-box; font-weight: 700;">Government College of Engineering and Leather Technology</b></h2>
+            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family:Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
                 <b style="box-sizing: border-box; font-weight: 700;">Approved by AICTE and affiliated to Maulana Abul Kalam Azad University of Technology, West Bengal</b></p>
-            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family:Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
+            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family:Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
                 <b style="box-sizing: border-box; font-weight: 700;">ESTD - 1919</b></p>
 
         </div>
         <div id="menu">
-            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%" OnMenuItemClick="Menu1_MenuItemClick" style="color: #5C46D6">
+            <asp:Menu ID="Menu1" runat="server" Orientation="Horizontal" Width="100%" OnMenuItemClick="Menu1_MenuItemClick" style="color: #5C46D6" BackColor="#101010">
                 <DynamicMenuItemStyle HorizontalPadding="10px" />
                 <Items>
                     <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home_m.aspx"></asp:MenuItem>
@@ -31,7 +36,7 @@
                     <asp:MenuItem Text="About" Value="About"></asp:MenuItem>
                 </Items>
                 <StaticHoverStyle BackColor="#33CCFF" BorderColor="#000066" />
-                <StaticMenuItemStyle HorizontalPadding="10px" BackColor="White" />
+                <StaticMenuItemStyle HorizontalPadding="10px" ForeColor="White" />
                 <StaticMenuStyle HorizontalPadding="10px" VerticalPadding="10px" Width="100%" />
                 <StaticSelectedStyle BackColor="#6699FF" />
             </asp:Menu>
@@ -40,7 +45,13 @@
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
             </asp:ContentPlaceHolder>
         </div>
-        <div id="footer" class="auto-style2" background-color: #5C46D6;>End of Site</div>
+        <div id="footer" class="auto-style2" background-color: #5C46D6; style="text-align: center">
+            <h2 style="box-sizing: border-box; font-family:Helvetica, Arial, sans-serif; font-weight: 500; line-height: 1.1; color: rgb(255, 255, 255); margin-top: 20px; margin-bottom: 10px; font-size: 30px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;"><b style="box-sizing: border-box; font-weight: 700;">Government College of Engineering and Leather Technology</b></h2>
+            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family:Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
+                Block - LB 11, Sector-III, Salt Lake, Kolkata-700106, India.</p>
+            <p style="box-sizing: border-box; margin: 0px 0px 10px; color: rgb(255, 255, 255); font-family:Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(92, 70, 214); text-decoration-style: initial; text-decoration-color: initial;">
+                Phone: +91 33 23356977, Fax: +91 33 23358353, Email: principal@gcelt.gov.in </p>
+        </div>
     </form>
 </body>
 </html>
