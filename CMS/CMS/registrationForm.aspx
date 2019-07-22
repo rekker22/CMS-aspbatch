@@ -291,6 +291,18 @@
                     &nbsp;</td>
             </tr>
             <tr>
+                <td class="auto-style49">
+                    &nbsp;</td>
+                <td class="auto-style53">
+                    &nbsp;</td>
+                <td colspan="2" class="auto-style29">
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="145px">
+                        <asp:ListItem Value="Student"></asp:ListItem>
+                        <asp:ListItem Value="Admin"></asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+            </tr>
+            <tr>
                 <td class="auto-style47">
                     &nbsp;</td>
                 <td class="auto-style51">
@@ -306,9 +318,10 @@
                 <td class="auto-style47">
                     &nbsp;</td>
                 <td class="auto-style51">
-                    &nbsp;</td>
+                    <asp:Label ID="Label13" runat="server"></asp:Label>
+                </td>
                 <td class="auto-style9">
-                    <asp:Button ID="Button1" runat="server" Text="Register" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" />
+                    <asp:Button ID="Button1" runat="server" Text="Register" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" OnClick="Button1_Click" />
                 </td>
                 <td class="auto-style6">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

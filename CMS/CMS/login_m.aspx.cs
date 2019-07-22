@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -16,7 +17,23 @@ namespace CMS
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Server.Transfer("personalDetails_m.aspx");
+            string email = TextBox1.Text;
+            string pass = TextBox2.Text;
+            string usertype = DropDownList1.SelectedValue;
+
+            string qry = "select * from regtable where email = '" + email + "' and password ='" + pass + "' and usertype='" + usertype + "'";
+            DataSet ds = dbaccess.FetchData(qry);
+
+            if (ds.Tables[0].Rows.Count == 1)
+            {
+                Session["email"] = TextBox1.Text;
+                Session["password"] = TextBox2.Text;
+                //Response.Redirect("Welcome.aspx");
+            }
+            else
+            {
+                Response.Write("<script>alert('Invalid Username or Password!!!')</script>");
+            }
 
         }
     }

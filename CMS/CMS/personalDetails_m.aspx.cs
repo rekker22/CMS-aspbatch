@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -19,7 +20,6 @@ namespace CMS
         {
             string name = TextBox1.Text + " " + TextBox2.Text;
             string email = TextBox3.Text;
-           
             string address = TextBox4.Text + ", " + TextBox11.Text + ", " + TextBox12.Text + ", " + TextBox13.Text + ", " + TextBox14.Text;
             string fathername=TextBox18.Text;
             string fatheroccupation=TextBox19.Text;
@@ -33,21 +33,37 @@ namespace CMS
             string dob = TextBox15.Text;
             string blgroup = DropDownList2.Text;
 
-            string qry = "insert into regtable values('" + name + "','" + email + "','" + address + "','" + fathername + "','" + fatheroccupation + "','" + fathercontact + "','" + mothername + "','" + motheroccupation + "','" + mothercontact + "','" + "','" + religion + "','" + category + "','" + gender + "','" + dob + "','" + blgroup + "')";
-            
-            bool a = dbaccess.SaveData(qry);
+            string qry = "select * from personaldetails where email = '" + email + "' and name ='" + name +"'";
+            DataSet ds = dbaccess.FetchData(qry);
 
-            if (a == true)
+            if (ds.Tables[0].Rows.Count == 1)
             {
-                Label11.Text = "Data Successfully Inserted";
-                Label11.ForeColor = System.Drawing.Color.Green;
-                Response.Write("<script>alert('Registration Succesfully!!');window.location='Login.aspx';</script>");
+                Response.Write("<script>alert('User already exists');window.location='personalDetails.aspx';</script>");
             }
             else
             {
-                Label11.Text = "Something went wrong";
-                Label11.ForeColor = System.Drawing.Color.Red;
+                string qrychecking = "insert into personaldetails values('" + name + "','" + email + "','" + address + "','" + fathername + "','" + fatheroccupation + "','" + fathercontact + "','" + mothername + "','" + motheroccupation + "','" + mothercontact + "','" + "','" + religion + "','" + category + "','" + gender + "','" + dob + "','" + blgroup + "')";
+
+
+                bool a = dbaccess.SaveData(qrychecking);
+
+                if (a == true)
+                {
+
+                    //name and email should be store in session or cookies so that we can store educational details simultaneously 
+                    Session["email"] = email;
+                    Session["name"] = name;
+                    Label11.Text = "Data Successfully Inserted";
+                    Label11.ForeColor = System.Drawing.Color.Green;
+                    Response.Write("<script>window.location='educationDetails.aspx';</script>");
+                }
+                else
+                {
+                    Label11.Text = "Something went wrong";
+                    Label11.ForeColor = System.Drawing.Color.Red;
+                }
             }
+            
         }
     }
 }

@@ -12,7 +12,7 @@ using System.Configuration;
 
         public static bool SaveData(string qry)
         {
-            string conn_string = ConfigurationManager.ConnectionStrings["dbcs"].ToString(); //import module
+            string conn_string = ConfigurationManager.ConnectionStrings["dbcms"].ToString(); //import module
 
             SqlConnection con = new SqlConnection(conn_string); //create connection
 
@@ -38,7 +38,7 @@ using System.Configuration;
         public static DataSet FetchData(string qry)
         {
 
-            string conn_string = ConfigurationManager.ConnectionStrings["dbcs"].ToString();
+            string conn_string = ConfigurationManager.ConnectionStrings["dbcms"].ToString();
 
             SqlConnection con = new SqlConnection(conn_string);
 

@@ -24,10 +24,8 @@
                 <DynamicMenuItemStyle HorizontalPadding="10px" />
                 <Items>
                     <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/Home_m.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Registration" Value="Registration" NavigateUrl="~/registrationForm.aspx"></asp:MenuItem>
-                    <asp:MenuItem Text="Login" Value="Sign In/Sign Up">
-                        <asp:MenuItem NavigateUrl="~/login_m.aspx" Text="Student Login" Value="Student Login"></asp:MenuItem>
-                        <asp:MenuItem Text="Admin Login" Value="Admin Login"></asp:MenuItem>
+                    <asp:MenuItem Text="Registration" Value="Registration" NavigateUrl="~/personalDetails_m.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Login" Value="Sign In/Sign Up" NavigateUrl="~/login_m.aspx">
                     </asp:MenuItem>
                     <asp:MenuItem Text="Contact Us" Value="Contact Us"></asp:MenuItem>
                     <asp:MenuItem Text="About" Value="About"></asp:MenuItem>

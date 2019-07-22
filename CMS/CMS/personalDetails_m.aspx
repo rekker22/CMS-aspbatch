@@ -526,7 +526,7 @@
                     <asp:Button ID="Button1" runat="server" Text="Submit" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" OnClick="Button1_Click" />
                 </td>
                 <td class="auto-style6" colspan="2">
-                    <asp:Label ID="Label18" runat="server" ><a onclick href="educationDetails.aspx">Next Step: Educational Details</asp:Label>
+                    <asp:Label ID="Label18" runat="server" Font-Size="Medium" >Next Step: Educational Details</asp:Label>
                 </td>
             </tr>
             <tr>

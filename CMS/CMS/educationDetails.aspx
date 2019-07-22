@@ -40,12 +40,13 @@
         .auto-style12 {
             height: 33px;
             color: #000000;
+            width: 175px;
         }
         .auto-style13 {
             color: #000000;
         }
     .auto-style14 {
-        width: 1228px;
+        width: 1490px;
         text-align: center;
         color: #FFFFFF;
         height: 28px;
@@ -56,7 +57,7 @@
     }
     .auto-style16 {
         height: 776px;
-        width: 1226px;
+        width: 1492px;
         margin-right: 0px;
     }
     .auto-style17 {
@@ -65,7 +66,7 @@
         text-align: center;
     }
     .auto-style18 {
-        width: 1220px;
+        width: 1486px;
     }
     .auto-style20 {
         height: 26px;
@@ -76,12 +77,8 @@
         width: 1610px;
         text-align: center;
     }
-    .auto-style22 {
-        width: 401px;
-        text-align: center;
-    }
     .auto-style23 {
-        width: 403px;
+        width: 526px;
         text-align: center;
     }
     .auto-style24 {
@@ -120,14 +117,17 @@
     .auto-style32 {
         width: 1747px;
         height: 38px;
-    }
+            text-align: center;
+        }
     .auto-style33 {
         width: 1747px;
-    }
+            text-align: center;
+        }
     .auto-style34 {
-        width: 1747px;
-        height: 26px;
-    }
+            width: 1747px;
+            height: 26px;
+            text-align: center;
+        }
     .auto-style35 {
         text-align: center;
     }
@@ -148,22 +148,40 @@
         width: 1610px;
         text-align: center;
     }
-    .auto-style39 {
-        width: 258px;
-        height: 26px;
-        text-align: center;
-    }
     .auto-style40 {
         width: 258px;
         color: #000000;
         text-align: center;
     }
-    .auto-style41 {
-        width: 1804px;
-        color: #000000;
-        height: 38px;
-        text-align: center;
-    }
+        .auto-style42 {
+            width: 320px;
+            height: 26px;
+            text-align: center;
+        }
+        .auto-style43 {
+            width: 320px;
+            text-align: center;
+        }
+        .auto-style44 {
+            width: 320px;
+            height: 38px;
+            text-align: center;
+        }
+        .auto-style46 {
+            width: 258px;
+            height: 26px;
+            text-align: center;
+        }
+        .auto-style47 {
+            width: 1804px;
+            color: #000000;
+            height: 38px;
+            text-align: center;
+        }
+        .auto-style48 {
+            width: 492px;
+            text-align: center;
+        }
     </style>
 </asp:Content>
 
@@ -181,7 +199,7 @@
                     <td class="auto-style23">
                         <asp:Label ID="Label15" runat="server" Text="Step 1: Personal Details"></asp:Label>
                     </td>
-                    <td class="auto-style22">
+                    <td class="auto-style48">
                         <asp:Label ID="Label16" runat="server" Text="Step 2: Educational Details" Font-Bold="True" Font-Size="Medium" ForeColor="#FF3300"></asp:Label>
                     </td>
                     <td class="auto-style35">
@@ -195,7 +213,7 @@
 
         </div>
       
-        <table class="auto-style14" style="padding: 2px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large; font-weight: bold; text-align: center; letter-spacing: normal; vertical-align: middle; line-height: normal; background-color: #000000; border: thick none #3333FF; color: #FFFFFF; margin-left: 0px; margin-right: auto; margin-top: auto; " align="left">
+        <table class="auto-style14" style="padding: 2px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: large; font-weight: bold; text-align: center; letter-spacing: normal; vertical-align: middle; line-height: normal; background-color: #000000; border: thick none #3333FF; color: #FFFFFF; margin-left: 0px; margin-right: auto; margin-top: auto; " align="center">
             <tr>
                 <td class="auto-style3">
                     <asp:Label ID="Label1" runat="server" Text="Educational Details"></asp:Label>
@@ -255,17 +273,17 @@
                     <table class="auto-style1">
                         <tr>
                             <td>
-                                <asp:TextBox ID="TextBox6" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox6" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <asp:TextBox ID="TextBox7" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox7" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style8">
-                                <asp:TextBox ID="TextBox8" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox8" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
@@ -279,22 +297,22 @@
                     <table class="auto-style1">
                         <tr>
                             <td>
-                                <asp:TextBox ID="TextBox10" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox10" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <asp:TextBox ID="TextBox11" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox11" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style8">
-                                <asp:TextBox ID="TextBox12" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox12" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                         <tr>
                             <td class="auto-style7">
-                                <asp:TextBox ID="TextBox13" runat="server" Width="50px" Height="30px"></asp:TextBox>
+                                <asp:TextBox ID="TextBox13" runat="server" Width="50px" Height="30px" ></asp:TextBox>
                             </td>
                         </tr>
                     </table>
@@ -325,9 +343,9 @@
         <table class="auto-style1" style="color: #000000">
             <tr>
                 <td class="auto-style24">Exam Passed</td>
-                <td class="auto-style41">Board</td>
+                <td class="auto-style47">Board</td>
                 <td class="auto-style32">Year of Passing</td>
-                <td class="auto-style27">Subject</td>
+                <td class="auto-style44">Subject</td>
                 <td class="auto-style28">Marks Obtained</td>
                 <td class="auto-style28">Full Marks</td>
             </tr>
@@ -345,7 +363,7 @@
                         <asp:ListItem>2015</asp:ListItem>
                     </asp:DropDownList>
                 </td>
-                <td class="auto-style6">
+                <td class="auto-style43">
                     <table class="auto-style1">
                         <tr>
                             <td>
@@ -420,9 +438,9 @@
             </tr>
             <tr>
                 <td class="auto-style38">X Total</td>
-                <td class="auto-style39"></td>
+                <td class="auto-style46"></td>
                 <td class="auto-style34"></td>
-                <td class="auto-style11"></td>
+                <td class="auto-style42"></td>
                 <td class="auto-style7">
                     <asp:Label ID="Label4" runat="server"></asp:Label>
                 </td>
@@ -432,9 +450,9 @@
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style9">&nbsp;</td>
+                <td class="auto-style46">&nbsp;</td>
                 <td class="auto-style34">&nbsp;</td>
-                <td class="auto-style11">&nbsp;</td>
+                <td class="auto-style42">&nbsp;</td>
                 <td class="auto-style7">&nbsp;</td>
                 <td class="auto-style7">&nbsp;</td>
             </tr>
@@ -443,12 +461,13 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style12">
-                    &nbsp;</td>
+                    <asp:Label ID="Label18" runat="server"></asp:Label>
+                </td>
                 <td class="auto-style36">
-                    <asp:Button ID="Button1" runat="server" Text="Submit" BackColor="#6250C3" BorderColor="White" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px"  />
+                    <asp:Button ID="Button1" runat="server" Text="Submit" BackColor="#6250C3" BorderColor="White" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" OnClick="Button1_Click"  />
                 </td>
                 <td class="auto-style37">
-                    <asp:Label ID="Label6" runat="server" ><a onclick href="upload_m.aspx">Next Step: Upload Documents</asp:Label>
+                    <asp:Label ID="Label6" runat="server" >Next Step: Upload Documents</asp:Label>
                 </td>
             </tr>
         </table>

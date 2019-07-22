@@ -41,6 +41,10 @@
         .auto-style27 {
             height: 877px;
         }
+        .auto-style28 {
+            height: 33px;
+            width: 202px;
+        }
         </style>
      <div style="height: 95px">
 
@@ -77,6 +81,7 @@
                 <td class="auto-style25">Upload the Signature</td>
                 <td>
                     <asp:FileUpload ID="FileUpload2" runat="server" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="FileUpload2" ErrorMessage="Upload a Picture"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -112,6 +117,7 @@
                 <td class="auto-style25">Upload the Photo</td>
                 <td>
                     <asp:FileUpload ID="FileUpload3" runat="server" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="FileUpload3" ErrorMessage="Upload a Picture"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -145,21 +151,22 @@
             <tr>
                 <td class="auto-style21">&nbsp;</td>
                 <td class="auto-style25">Upload the Thumb Impression</td>
-                <td>
+                <td colspan="2">
                     <asp:FileUpload ID="FileUpload4" runat="server" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="FileUpload4" ErrorMessage="Upload a Picture"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style21" >&nbsp;</td>
                 <td class="auto-style25" >&nbsp;</td>
-                <td>
+                <td colspan="2">
                     <asp:Image ID="Image4" runat="server" Height="182px" Width="203px" />
                 </td>
             </tr>
             <tr>
                 <td class="auto-style21" >&nbsp;</td>
                 <td class="auto-style25" >&nbsp;</td>
-                <td>
+                <td colspan="2">
                     &nbsp;</td>
             </tr>
             <tr>
@@ -168,8 +175,11 @@
                 <td class="auto-style26">
                     <asp:Label ID="Label20" runat="server"></asp:Label>
                 </td>
+                <td class="auto-style28">
+                    <asp:Button ID="Button4" runat="server"  Text="Upload" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" OnClick="Button4_Click" />
+                </td>
                 <td class="auto-style3">
-                    <asp:Button ID="Button4" runat="server"  Text="Upload" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Width="100px" />
+                    <asp:Label ID="Label21" runat="server" >Next Step: Setup password and email</asp:Label>
                 </td>
             </tr>
             <tr>
@@ -177,7 +187,7 @@
                     &nbsp;</td>
                 <td class="auto-style26">
                     &nbsp;</td>
-                <td class="auto-style3">
+                <td class="auto-style3" colspan="2">
                     &nbsp;</td>
             </tr>
         </table>

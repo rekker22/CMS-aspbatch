@@ -123,6 +123,18 @@
         
      
         
+    .auto-style33 {
+        width: 253px;
+        height: 15px;
+        text-align: center;
+    }
+        
+     
+        
+      
+        
+     
+        
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -172,8 +184,25 @@
             <tr>
                 <td class="auto-style28"></td>
                 <td class="auto-style29"></td>
-                <td class="auto-style30"></td>
+                <td class="auto-style30">&nbsp;</td>
                 <td class="auto-style31"></td>
+            </tr>
+            <tr>
+                <td class="auto-style28">&nbsp;</td>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style33">
+                    <asp:DropDownList ID="DropDownList1" runat="server" Height="30px" Width="146px">
+                        <asp:ListItem Value="Student"></asp:ListItem>
+                        <asp:ListItem Value="Admin"></asp:ListItem>
+                    </asp:DropDownList>
+                </td>
+                <td class="auto-style31">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style28">&nbsp;</td>
+                <td class="auto-style29">&nbsp;</td>
+                <td class="auto-style30">&nbsp;</td>
+                <td class="auto-style31">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style17">&nbsp;</td>
