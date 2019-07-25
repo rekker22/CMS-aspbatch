@@ -27,8 +27,8 @@ namespace CMS
             if (ds.Tables[0].Rows.Count == 1)
             {
                 Session["email"] = TextBox1.Text;
-                Session["password"] = TextBox2.Text;
-                //Response.Redirect("Welcome.aspx");
+                Session["name"] = ds.Tables[0].Rows[0]["name"].ToString();
+                Response.Redirect("Profile_m.aspx");
             }
             else
             {

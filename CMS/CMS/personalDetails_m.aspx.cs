@@ -38,11 +38,13 @@ namespace CMS
 
             if (ds.Tables[0].Rows.Count == 1)
             {
-                Response.Write("<script>alert('User already exists');window.location='personalDetails.aspx';</script>");
+                Session["email"] = email;
+                Session["name"] = name;
+                Response.Write("<script>alert('User Personal Details already exists');window.location='educationDetails.aspx';</script>");
             }
             else
             {
-                string qrychecking = "insert into personaldetails values('" + name + "','" + email + "','" + address + "','" + fathername + "','" + fatheroccupation + "','" + fathercontact + "','" + mothername + "','" + motheroccupation + "','" + mothercontact + "','" + "','" + religion + "','" + category + "','" + gender + "','" + dob + "','" + blgroup + "')";
+                string qrychecking = "insert into personaldetails values('" + name + "','" + email + "','" + address + "','" + fathername + "','" + fatheroccupation + "','" + fathercontact + "','" + mothername + "','" + motheroccupation + "','" + mothercontact + "','" + religion + "','" + category + "','" + gender + "','" + dob + "','" + blgroup + "')";
 
 
                 bool a = dbaccess.SaveData(qrychecking);
@@ -50,7 +52,7 @@ namespace CMS
                 if (a == true)
                 {
 
-                    //name and email should be store in session or cookies so that we can store educational details simultaneously 
+                    //name and email should be store in session or cookies so that we can store educational details simultaneously
                     Session["email"] = email;
                     Session["name"] = name;
                     Label11.Text = "Data Successfully Inserted";
@@ -65,5 +67,7 @@ namespace CMS
             }
             
         }
+
+        
     }
 }

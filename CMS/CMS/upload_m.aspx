@@ -81,7 +81,7 @@
                 <td class="auto-style25">Upload the Signature</td>
                 <td>
                     <asp:FileUpload ID="FileUpload2" runat="server" />
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="FileUpload2" ErrorMessage="Upload a Picture"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="FileUpload2" ErrorMessage="Upload a Picture" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -98,7 +98,7 @@
                     <asp:Label ID="Label18" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="Button2" runat="server"  Text="Upload" />
+                    <asp:Button ID="Button2" runat="server"  Text="Upload" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" OnClick="Button2_Click" Width="100px" />
                 </td>
             </tr>
             <tr>
@@ -117,7 +117,7 @@
                 <td class="auto-style25">Upload the Photo</td>
                 <td>
                     <asp:FileUpload ID="FileUpload3" runat="server" />
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="FileUpload3" ErrorMessage="Upload a Picture"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="FileUpload3" ErrorMessage="Upload a Picture" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
@@ -134,7 +134,7 @@
                     <asp:Label ID="Label19" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style3">
-                    <asp:Button ID="Button3" runat="server"  Text="Upload" />
+                    <asp:Button ID="Button3" runat="server"  Text="Upload" BackColor="#6250C3" ForeColor="White" Height="27px" Width="100px" OnClick="Button3_Click" />
                 </td>
             </tr>
             <tr>
@@ -153,7 +153,7 @@
                 <td class="auto-style25">Upload the Thumb Impression</td>
                 <td colspan="2">
                     <asp:FileUpload ID="FileUpload4" runat="server" />
-                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="FileUpload4" ErrorMessage="Upload a Picture"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="FileUpload4" ErrorMessage="Upload a Picture" ForeColor="#FF3300"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>

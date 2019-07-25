@@ -37,17 +37,12 @@ namespace CMS
 
             if (a == true)
             {
-                //name and email should be store in session or cookies so that we can store educational details simultaneously 
-                Session["email"] = email;
-                Session["name"] = name;
-                //Label13.Text = "Data Successfully Inserted";
-                //Label13.ForeColor = System.Drawing.Color.Green;
-                Response.Write("<script>window.location='Login.aspx';</script>");
+                Response.Write("<script>window.location='login_m.aspx';</script>");
             }
             else
             {
                 Label13.Text = "Something went wrong";
-                Label1.ForeColor = System.Drawing.Color.Red;
+                Label13.ForeColor = System.Drawing.Color.Red;
             }
         }
     }
