@@ -25,18 +25,18 @@ namespace CMS
             {
                 string name = Session["name"].ToString();
                 string email = Session["email"].ToString();
-                Label2.Text = (Convert.ToInt32(TextBox6.Text) + Convert.ToInt32(TextBox7.Text) + Convert.ToInt32(TextBox8.Text) + Convert.ToInt32(TextBox9.Text)).ToString();
-                Label3.Text = (Convert.ToInt32(TextBox10.Text) + Convert.ToInt32(TextBox11.Text) + Convert.ToInt32(TextBox12.Text) + Convert.ToInt32(TextBox13.Text)).ToString();
+                Label2.Text = (Convert.ToInt32(TextBox6.Text) + Convert.ToInt32(TextBox27.Text) + Convert.ToInt32(TextBox28.Text) + Convert.ToInt32(TextBox29.Text)).ToString();
+                Label3.Text = (Convert.ToInt32(TextBox30.Text) + Convert.ToInt32(TextBox31.Text) + Convert.ToInt32(TextBox32.Text) + Convert.ToInt32(TextBox33.Text)).ToString();
                 double p12 = (Convert.ToInt32(Label2.Text) / Convert.ToInt32(Label3.Text)) * 100;
                 string percentage12 = p12.ToString();
-                Label4.Text = (Convert.ToInt32(TextBox19.Text) + Convert.ToInt32(TextBox20.Text) + Convert.ToInt32(TextBox21.Text) + Convert.ToInt32(TextBox22.Text)).ToString();
-                Label5.Text = (Convert.ToInt32(TextBox23.Text) + Convert.ToInt32(TextBox24.Text) + Convert.ToInt32(TextBox25.Text) + Convert.ToInt32(TextBox26.Text)).ToString();
-                double p10 = (Convert.ToInt32(Label4.Text) / Convert.ToInt32(Label5.Text)) * 100;
+                Label19.Text = (Convert.ToInt32(TextBox35.Text) + Convert.ToInt32(TextBox36.Text) + Convert.ToInt32(TextBox37.Text) + Convert.ToInt32(TextBox38.Text)).ToString();
+                Label20.Text = (Convert.ToInt32(TextBox39.Text) + Convert.ToInt32(TextBox40.Text) + Convert.ToInt32(TextBox41.Text) + Convert.ToInt32(TextBox42.Text)).ToString();
+                double p10 = (Convert.ToInt32(Label19.Text) / Convert.ToInt32(Label20.Text)) * 100;
                 string percentage10 = p10.ToString();
                 string year12 = DropDownList1.SelectedValue;
                 string board12 = TextBox1.Text;
                 string year10 = DropDownList2.SelectedValue;
-                string board10 = TextBox14.Text;
+                string board10 = TextBox34.Text;
                 string qry = "insert into educationdetails values('" + name + "','" + email + "','" + percentage12 + "','" + percentage10 + "','" + year12 + "','" + board12 + "','" + year10 + "','" + board10 + "')";
 
                 bool a = dbaccess.SaveData(qry);
