@@ -6,17 +6,17 @@
             height: 461px;
         }
         .auto-style4 {
-            width: 280px;
+            width: 564px;
         }
         .auto-style6 {
-            width: 335px;
-        }
-        .auto-style7 {
-            width: 281px;
+            width: 346px;
         }
         .auto-style8 {
-            width: 335px;
+            width: 346px;
             text-align: center;
+        }
+        .auto-style9 {
+            width: 263px;
         }
     </style>
 </asp:Content>
@@ -30,7 +30,7 @@
         </tr>
         <tr>
             <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style7">Name</td>
+            <td class="auto-style9">Name</td>
             <td class="auto-style6">
                 <asp:Label ID="Label2" runat="server"></asp:Label>
             </td>
@@ -38,7 +38,7 @@
         </tr>
         <tr>
             <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style7">Email Address</td>
+            <td class="auto-style9">Email Address</td>
             <td class="auto-style6">
                 <asp:Label ID="Label3" runat="server"></asp:Label>
             </td>
@@ -46,7 +46,7 @@
         </tr>
         <tr>
             <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style7">Contact Number</td>
+            <td class="auto-style9">Contact Number</td>
             <td class="auto-style6">
                 <asp:Label ID="Label4" runat="server"></asp:Label>
             </td>
@@ -54,7 +54,7 @@
         </tr>
         <tr>
             <td class="auto-style4">&nbsp;</td>
-            <td class="auto-style7">&nbsp;</td>
+            <td class="auto-style9">&nbsp;</td>
             <td class="auto-style8">
                 <asp:Button ID="Button1" runat="server" BackColor="#6250C3" BorderStyle="Solid" ForeColor="White" Height="27px" Text="Edit" Width="100px" />
             </td>

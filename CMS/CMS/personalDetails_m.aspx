@@ -14,23 +14,12 @@
             height: 32px;
              background-color: #6250C3;
          }
-        .auto-style4 {
-            width: 364px;
-        }
-        .auto-style5 {
-            width: 364px;
-            height: 26px;
-        }
         .auto-style6 {
             height: 26px;
             font-size: small;
             font-style: italic;
             color: #808080;
             text-align: left;
-        }
-        .auto-style7 {
-            width: 364px;
-            height: 29px;
         }
         .auto-style8 {
             height: 29px;
@@ -45,16 +34,8 @@
              font-size: small;
              color: #808080;
          }
-        .auto-style10 {
-            width: 364px;
-            height: 24px;
-        }
         .auto-style11 {
             height: 24px;
-        }
-        .auto-style12 {
-            width: 364px;
-            height: 8px;
         }
         .auto-style13 {
             height: 8px;
@@ -67,10 +48,6 @@
             height: 28px;
             }
        
-        .auto-style14 {
-            width: 364px;
-            height: 33px;
-        }
         .auto-style15 {
             height: 33px;
         }
@@ -78,11 +55,6 @@
             color: #000000;
         }
         .auto-style17 {
-            color: #FF0000;
-        }
-        .auto-style18 {
-            width: 364px;
-            height: 70px;
             color: #FF0000;
         }
         .auto-style19 {
@@ -143,31 +115,27 @@
              width: 1232px;
          }
          .auto-style31 {
-             width: 283px;
+             width: 271px;
              height: 26px;
          }
          .auto-style32 {
-             width: 283px;
+             width: 271px;
              height: 29px;
          }
          .auto-style33 {
-             width: 283px;
+             width: 271px;
              height: 33px;
          }
          .auto-style34 {
-             width: 283px;
+             width: 271px;
              height: 19px;
          }
          .auto-style35 {
-             width: 283px;
+             width: 271px;
              height: 8px;
          }
-         .auto-style36 {
-             width: 283px;
-             height: 24px;
-         }
          .auto-style37 {
-             width: 283px;
+             width: 271px;
              height: 70px;
              color: #FF0000;
          }
@@ -181,6 +149,39 @@
          }
          .auto-style40 {
              text-align: center;
+         }
+       
+         .auto-style41 {
+             width: 232px;
+             height: 26px;
+         }
+         .auto-style42 {
+             width: 232px;
+             height: 29px;
+         }
+         .auto-style43 {
+             width: 232px;
+             height: 33px;
+         }
+         .auto-style44 {
+             width: 232px;
+             height: 8px;
+         }
+         .auto-style45 {
+             width: 232px;
+             height: 24px;
+         }
+         .auto-style46 {
+             width: 232px;
+             height: 70px;
+             color: #FF0000;
+         }
+         .auto-style47 {
+             width: 232px;
+         }
+         .auto-style48 {
+             height: 24px;
+             width: 271px;
          }
        
     </style>
@@ -228,14 +229,14 @@
         <table class="auto-style1" style="background-color: #FFFFFF; height: 37px; margin-left: 0px; color: #000000; text-align: left;">
             <tr>
                 <td class="auto-style31" style="background-color: #FFFFFF">&nbsp;</td>
-                <td class="auto-style5" style="background-color: #FFFFFF">&nbsp;</td>
+                <td class="auto-style41" style="background-color: #FFFFFF">&nbsp;</td>
                 <td class="auto-style9">&nbsp;</td>
                 <td class="auto-style6" colspan="2">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style31" style="background-color: #FFFFFF">
                     &nbsp;</td>
-                <td class="auto-style5" style="background-color: #FFFFFF">
+                <td class="auto-style41" style="background-color: #FFFFFF">
                     <asp:Label ID="Label2" runat="server" Text="Name"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td class="auto-style9">
@@ -250,13 +251,13 @@
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7"></td>
+                <td class="auto-style42"></td>
                 <td colspan="3" class="auto-style20">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style33">
                     &nbsp;</td>
-                <td class="auto-style14">
+                <td class="auto-style43">
                     <asp:Label ID="Label3" runat="server" Text="E-mail"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td colspan="3" class="auto-style15">
@@ -268,13 +269,13 @@
             </tr>
             <tr>
                 <td class="auto-style34">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style47">&nbsp;</td>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style34">
                     &nbsp;</td>
-                <td class="auto-style4">
+                <td class="auto-style47">
                     <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td colspan="3">
@@ -285,24 +286,24 @@
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7"></td>
+                <td class="auto-style42"></td>
                 <td class="auto-style8" colspan="3" >Street Address</td>
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7">&nbsp;</td>
+                <td class="auto-style42">&nbsp;</td>
                 <td class="auto-style8" colspan="3">
                     <asp:TextBox ID="TextBox11"  runat="server" Width="520px" Height="30px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7"></td>
+                <td class="auto-style42"></td>
                 <td class="auto-style8" colspan="3">Street Address Line 2</td>
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7"></td>
+                <td class="auto-style42"></td>
                 <td class="auto-style21">
                     <asp:TextBox ID="TextBox12" runat="server" Width="226px" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="TextBox12" ErrorMessage="City Required" SetFocusOnError="True" style="color: #FF0000"></asp:RequiredFieldValidator>
@@ -315,13 +316,13 @@
             </tr>
             <tr>
                 <td class="auto-style35">&nbsp;</td>
-                <td class="auto-style12"></td>
+                <td class="auto-style44"></td>
                 <td class="auto-style22">City</td>
                 <td class="auto-style13" colspan="2">State/Province</td>
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7"></td>
+                <td class="auto-style42"></td>
                 <td class="auto-style21">
                     <asp:TextBox ID="TextBox14"  runat="server" Width="226px" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="TextBox14" ErrorMessage="Pin Code Required" SetFocusOnError="True" style="color: #FF0000"></asp:RequiredFieldValidator>
@@ -335,19 +336,19 @@
             </tr>
             <tr>
                 <td class="auto-style32">&nbsp;</td>
-                <td class="auto-style7"></td>
+                <td class="auto-style42"></td>
                 <td class="auto-style21">Pin Code</td>
                 <td class="auto-style8" colspan="2">Select Country</td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10"></td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45"></td>
                 <td class="auto-style11" colspan="3"></td>
             </tr>
             <tr>
-                <td class="auto-style36">
+                <td class="auto-style48">
                     &nbsp;</td>
-                <td class="auto-style10">
+                <td class="auto-style45">
                     <asp:Label ID="Label13" runat="server" Text="Father's Name"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td class="auto-style23">
@@ -361,15 +362,15 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">&nbsp;</td>
                 <td class="auto-style23">&nbsp;</td>
                 <td class="auto-style24">&nbsp;</td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">Yearly Income</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">Yearly Income</td>
                 <td class="auto-style23">
                     <asp:TextBox ID="TextBox20" runat="server" Width="226px" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator18" runat="server" ControlToValidate="TextBox20" ErrorMessage="Required" SetFocusOnError="True" style="color: #FF0000; font-style: italic; font-size: small"></asp:RequiredFieldValidator>
@@ -382,14 +383,14 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">&nbsp;</td>
                 <td class="auto-style11" colspan="3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style36">
+                <td class="auto-style48">
                     &nbsp;</td>
-                <td class="auto-style10">
+                <td class="auto-style45">
                     <asp:Label ID="Label14" runat="server" Text="Mother's Name"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td class="auto-style23">
@@ -403,15 +404,15 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">&nbsp;</td>
                 <td class="auto-style23">&nbsp;</td>
                 <td class="auto-style24">&nbsp;</td>
                 <td class="auto-style11">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">Yearly Income</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">Yearly Income</td>
                 <td class="auto-style23">
                     <asp:TextBox ID="TextBox23" runat="server" Width="226px" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator21" runat="server" ControlToValidate="TextBox23" ErrorMessage="Required" SetFocusOnError="True" style="color: #FF0000; font-style: italic; font-size: small"></asp:RequiredFieldValidator>
@@ -424,26 +425,26 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">&nbsp;</td>
                 <td class="auto-style11" colspan="3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">Religion</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">Religion</td>
                 <td class="auto-style11" colspan="3">
                     <asp:TextBox ID="TextBox25" runat="server" Width="226px" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator23" runat="server" ControlToValidate="TextBox25" ErrorMessage="Required" SetFocusOnError="True" style="color: #FF0000; font-style: italic; font-size: small"></asp:RequiredFieldValidator>
                 </td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">&nbsp;</td>
                 <td class="auto-style11" colspan="3">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10">Category</td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45">Category</td>
                 <td class="auto-style11" colspan="3">
                     <asp:RadioButtonList ID="RadioButtonList2" runat="server"  RepeatDirection="Horizontal" style="margin-left: 0px" Width="563px" Height="30px">
                         <asp:ListItem>General</asp:ListItem>
@@ -454,14 +455,14 @@
                     </td>
             </tr>
             <tr>
-                <td class="auto-style36">&nbsp;</td>
-                <td class="auto-style10"></td>
+                <td class="auto-style48">&nbsp;</td>
+                <td class="auto-style45"></td>
                 <td class="auto-style11" colspan="3"></td>
             </tr>
             <tr>
                 <td class="auto-style31">
                     &nbsp;</td>
-                <td class="auto-style5">
+                <td class="auto-style41">
                     <asp:Label ID="Label7" runat="server" Text="Gender"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td class="auto-style6" colspan="3">
@@ -475,12 +476,12 @@
             </tr>
             <tr>
                 <td class="auto-style34">&nbsp;</td>
-                <td class="auto-style4">&nbsp;</td>
+                <td class="auto-style47">&nbsp;</td>
                 <td colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style31">&nbsp;</td>
-                <td class="auto-style5"><asp:Label ID="Label12" runat="server" Text="Date Of Birth" CssClass="auto-style16"></asp:Label>
+                <td class="auto-style41"><asp:Label ID="Label12" runat="server" Text="Date Of Birth" CssClass="auto-style16"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td class="auto-style6" colspan="3">&nbsp;<asp:TextBox ID="TextBox15" runat="server" Width="226px" CssClass="auto-style16" TextMode="Date" Height="30px"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ControlToValidate="TextBox15" CssClass="newStyle1" ErrorMessage="D.O.B. Required" SetFocusOnError="True"></asp:RequiredFieldValidator>
@@ -488,13 +489,13 @@
             </tr>
             <tr>
                 <td class="auto-style31">&nbsp;</td>
-                <td class="auto-style5"></td>
+                <td class="auto-style41"></td>
                 <td class="auto-style6" colspan="3"></td>
             </tr>
             <tr>
                 <td class="auto-style31">
                     &nbsp;</td>
-                <td class="auto-style5">
+                <td class="auto-style41">
                     <asp:Label ID="Label10" runat="server" Text="Blood Group"></asp:Label>
                     <span class="auto-style17">*</span></td>
                 <td class="auto-style6" colspan="3">
@@ -513,13 +514,13 @@
             </tr>
             <tr>
                 <td class="auto-style31">&nbsp;</td>
-                <td class="auto-style5"></td>
+                <td class="auto-style41"></td>
                 <td class="auto-style6" colspan="3"></td>
             </tr>
             <tr>
                 <td class="auto-style31">
                     &nbsp;</td>
-                <td class="auto-style5">
+                <td class="auto-style41">
                     <asp:Label ID="Label11" runat="server"></asp:Label>
                 </td>
                 <td class="auto-style9">
@@ -531,12 +532,12 @@
             </tr>
             <tr>
                 <td class="auto-style31">&nbsp;</td>
-                <td class="auto-style5">&nbsp;</td>
+                <td class="auto-style41">&nbsp;</td>
                 <td class="auto-style6" colspan="3">&nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style37">&nbsp;</td>
-                <td class="auto-style18">*Mandatory Field</td>
+                <td class="auto-style46">*Mandatory Field</td>
                 <td class="auto-style29" colspan="3">
                     <asp:ValidationSummary ID="ValidationSummary1" runat="server" CssClass="auto-style19" />
                 </td>

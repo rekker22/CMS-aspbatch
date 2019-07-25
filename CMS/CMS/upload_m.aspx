@@ -59,10 +59,10 @@
                 </tr>
                 <tr>
                     <td class="auto-style10">
-                        <asp:Label ID="Label15" runat="server" Text="Step 1: Personal Details"></asp:Label>
+                        <asp:Label ID="Label15" runat="server" Text="Step 1: Personal Details" Font-Size="Medium"></asp:Label>
                     </td>
                     <td class="auto-style14">
-                        <asp:Label ID="Label16" runat="server" Text="Step 2: Educational Details"></asp:Label>
+                        <asp:Label ID="Label16" runat="server" Text="Step 2: Educational Details" Font-Size="Medium"></asp:Label>
                     </td>
                     <td class="auto-style10">
                         <asp:Label ID="Label17" runat="server" Text="Step 3: Upload Files" Font-Bold="True" Font-Size="Medium" ForeColor="#FF3300"></asp:Label>

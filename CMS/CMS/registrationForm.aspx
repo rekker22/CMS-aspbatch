@@ -29,7 +29,7 @@
           }
         .auto-style9 {
             height: 26px;
-            width: 265px;
+            width: 148px;
             font-style: italic;
             font-size: small;
             color: #808080;
@@ -64,7 +64,7 @@
        
           .auto-style28 {
               height: 26px;
-              width: 265px;
+              width: 148px;
               font-style: italic;
               font-size: small;
               color: #808080;
@@ -90,84 +90,84 @@
           }
                  
           .auto-style39 {
-              width: 352px;
+              width: 271px;
               text-align: left;
               height: 19px;
           }
           .auto-style43 {
-              width: 352px;
+              width: 271px;
               height: 24px;
               text-align: left;
           }
           .auto-style44 {
-              width: 352px;
+              width: 271px;
               height: 33px;
               color: #000000;
               text-align: left;
           }
           .auto-style46 {
-              width: 352px;
+              width: 271px;
               height: 26px;
               color: #FF0000;
           }
        
           .auto-style47 {
-              width: 352px;
+              width: 271px;
               height: 26px;
               text-align: left;
           }
           .auto-style48 {
               height: 29px;
               text-align: left;
-              width: 352px;
+              width: 271px;
           }
           .auto-style49 {
               height: 33px;
               text-align: left;
-              width: 352px;
+              width: 271px;
           }
           .auto-style50 {
               text-align: left;
-              width: 352px;
+              width: 271px;
           }
        
           .auto-style51 {
-              width: 260px;
+              width: 364px;
               height: 26px;
               text-align: left;
           }
           .auto-style52 {
               height: 29px;
               text-align: left;
-              width: 260px;
+              width: 364px;
           }
           .auto-style53 {
               height: 33px;
               text-align: left;
-              width: 260px;
+              width: 364px;
           }
           .auto-style54 {
-              width: 260px;
+              width: 364px;
               text-align: left;
               height: 19px;
           }
           .auto-style55 {
-              width: 260px;
+              width: 364px;
               height: 24px;
               text-align: left;
           }
           .auto-style56 {
-              width: 260px;
+              width: 364px;
               height: 33px;
               color: #000000;
               text-align: left;
           }
           .auto-style57 {
               text-align: left;
-              width: 260px;
+              width: 364px;
           }
           .auto-style58 {
-              width: 260px;
+              width: 364px;
               height: 26px;
               color: #FF0000;
           }
